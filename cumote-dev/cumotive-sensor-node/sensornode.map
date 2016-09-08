@@ -1,0 +1,24 @@
+CodeVisionAVR C Compiler V1.25.9 Standard
+(C) Copyright 1998-2008 Pavel Haiduc, HP InfoTech s.r.l.
+http://www.hpinfotech.com
+
+File: C:\Documents and Settings\Andrew\My Documents\AVR Development\CUmotive Sensor Node\sensornode.c
+Global variables memory map:
+
+Variable                          Address   Size
+*HAL_tx_frame                                                        R4,R5      2
+*HAL_rx_frame                                                        R6,R7      2
+HAL_LQI                                                               500h      1
+HAL_tx_frame_length                                                     R9      1
+HAL_rx_frame_length                                                     R8      1
+HAL_radio_state                                                        R11      1
+HAL_radio_channel                                                     501h      1
+HAL_transmit_power                                                    502h      1
+HAL_CRC_enabled                                                       503h      1
+COM_mcu_freq                                                           R12      1
+COM_spi_freq                                                          504h      1
+COM_IRQ_pending                                                       505h      1
+COM_IRQ_status                                                        506h      1
+ms_counter                                                            507h      2
+node_state                                                             R10      1
+*p_S5C                                                                509h      2
